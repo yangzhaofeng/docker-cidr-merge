@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:alpine
 MAINTAINER Steven Yang <yangzhaofengsteven@gmail.com>
 
 RUN npm install cidr-tools
