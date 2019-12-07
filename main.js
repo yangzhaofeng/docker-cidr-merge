@@ -1,5 +1,5 @@
 var fs = require('fs');
-var cidrtomerge = fs.readFileSync('cidrtomerge.txt').toString().split("\n").filter(item => item);
+var cidrtomerge = fs.readFileSync('/dev/stdin').toString().split("\n").filter(item => item);
 //console.log(cidrtomerge);
 
 const cidrTools = require('cidr-tools');
