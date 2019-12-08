@@ -1,4 +1,4 @@
-# docker-cidr-tools
+# docker-cidr-merge
 
 A tool to merge CIDRs for both IPv4 and IPv6. A substitution for [CIDRMerge](http://cidrmerge.sourceforge.net/)
 
